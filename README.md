@@ -1,5 +1,6 @@
 # pangaea-bingo-sentinel.py
-Python3 script to monitor Harmony "pangaea" instance.
+Python3 script to monitor Harmony "pangaea" instance. Do take note that this only works if "BINGO" is enabled.
+
 
 # Take note to replace the following in the script
 * line 10: INSERT_TOKEN_HERE
