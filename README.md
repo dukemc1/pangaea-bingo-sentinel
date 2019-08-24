@@ -11,3 +11,7 @@ Replace this with your own telegram chat id or telegram channel id
 
 * line 53: INSERT_CHAT_ID_HERE
 Replace this with your own telegram chat id or telegram channel id
+
+# Add the monitoring script to cron (crontab -e)
+*/15 * * * * /SOME_PATH_TO/pangaea-bingo-sentinel.py
+(do not forget to make the file executable, chmod +x pangaea-bingo-sentinel.py)
