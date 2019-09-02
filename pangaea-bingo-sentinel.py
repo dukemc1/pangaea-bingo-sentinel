@@ -25,7 +25,7 @@ def gimme_tmstamp(logfile):
 
 ## timestamp = '''2019-08-24T17:54:13+08:00'''
 def parse_tmstamp(tmstamp):
-    fmt = "%Y-%m-%dT%H:%M:%S"
+    fmt = "%Y-%m-%dT%H:%M:%SZ"
     strtmstamp = time.strptime(tmstamp.split('+')[0], fmt)
     return int(time.mktime(strtmstamp))
 
